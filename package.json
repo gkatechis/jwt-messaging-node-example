@@ -1,0 +1,36 @@
+{
+  "name": "zendesk-jwt-messaging",
+  "version": "1.0.0",
+  "description": "A JWT server example for Zendesk messaging to demonstrate the experience for authenticated and anonymous users. ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "path": "^0.12.7",
+    "postcss": "^8.4.38",
+    "sqlite3": "^5.1.7",
+    "tailwindcss": "^3.4.1",
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/knotty-angry-suggestion"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jwt",
+    "zendesk"
+  ]
+}
