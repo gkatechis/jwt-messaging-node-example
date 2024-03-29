@@ -22,11 +22,8 @@
     "cookie": "^0.6.0",
     "cookie-parser": "^1.4.6"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "repository": {
-    "url": "https://glitch.com/edit/#!/knotty-angry-suggestion"
+    "url": "https://github.com/gkatechis/jwt-messaging-node-example"
   },
   "license": "MIT",
   "keywords": [
