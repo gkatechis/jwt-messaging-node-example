@@ -32,12 +32,11 @@ There are also two cookies added on login to handle the state changes of the log
 
 ## Setup
 
-    - Open a terminal window and add the node packages with `npm install`
-    - Navigate to the .env file and enter the key ID and shared secret for your widget. See [here](https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-in-messaging-for-the-Web-Widget-and-mobile-SDK#:~:text=To%20create%20and%20share%20a%20signing%20key) for information on obtaining these values.
-    - Navigate to src/index.html and replace the widget key snippet with your own. See [here](https://support.zendesk.com/hc/en-us/articles/4408828655514-Working-with-messaging-in-the-Web-Widget-Legacy#:~:text=is%20turned%20on.-,To%20add%20the%20Web%20Widget%20to%20your%20website,-Click%20the%20Installation) for instructions on obtaining the key snippet.
-    - Go back to your terminal and enter `npm run start`
-    - Go to http://localhost:3000/ (or whatever port number you specified in .env)
-  
+- Open a terminal window and add the node packages with `npm install`
+- Navigate to the .env file and enter the key ID and shared secret for your widget. See [here](https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-in-messaging-for-the-Web-Widget-and-mobile-SDK#:~:text=To%20create%20and%20share%20a%20signing%20key) for information on obtaining these values.
+- Navigate to src/index.html and replace the widget key snippet with your own. See [here](https://support.zendesk.com/hc/en-us/articles/4408828655514-Working-with-messaging-in-the-Web-Widget-Legacy#:~:text=is%20turned%20on.-,To%20add%20the%20Web%20Widget%20to%20your%20website,-Click%20the%20Installation) for instructions on obtaining the key snippet.
+- Go back to your terminal and enter `npm run start`
+- Go to http://localhost:3000/ (or whatever port number you specified in .env)
 - That's it, you're all set to go! You can now log in with one of the credentials listed above and start playing around with the authenticated experience. You can also choose the anonymous chat (which is only available)
 
 ## Bug reports
